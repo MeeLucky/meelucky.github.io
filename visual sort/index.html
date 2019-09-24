@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>something</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="displayWrapper">
+			<div id="display"></div>
+		</div>
+		<div class="control">
+			<table>
+				<tr>
+					<td>Длинна массива</td>
+					<td><input value="100" type="number" class="number lenght"></td>
+				</tr>
+				<tr>
+					<td>Макс. значение элемента</td>
+					<td><input value="100" type="number" class="number max"></td>
+				</tr>
+				<tr>
+					<td>Способ сортировки</td>
+					<td>
+						<select class="sort">
+						  <option value="BubleSort">Buble sort</option>
+						  <option value="InsertionSort">Insertion sort</option>
+						</select>
+					</td>
+					<tr>
+						<!-- <td><button onclick="Start()">Начать</button></td> -->
+						<td><button onclick="bubleSort(arr);">Начать</button></td>
+						<td><button onclick="stopAll()">STOP</button></td>
+					</tr>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
