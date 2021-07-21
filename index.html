@@ -2,41 +2,82 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>something</title>
+	<title>Такси город</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="script.js"></script>
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 	<div class="wrapper">
-		<div class="displayWrapper">
-			<div id="display"></div>
-		</div>
-		<div class="control">
-			<table>
-				<tr>
-					<td>Длинна массива</td>
-					<td><input value="100" type="number" class="number lenght"></td>
-				</tr>
-				<tr>
-					<td>Макс. значение элемента</td>
-					<td><input value="100" type="number" class="number max"></td>
-				</tr>
-				<tr>
-					<td>Способ сортировки</td>
-					<td>
-						<select class="sort">
-						  <option value="BubleSort">Buble sort</option>
-						  <option value="InsertionSort">Insertion sort</option>
-						</select>
-					</td>
-					<tr>
-						<!-- <td><button onclick="Start()">Начать</button></td> -->
-						<td><button onclick="bubleSort(arr);">Начать</button></td>
-						<td><button onclick="stopAll()">STOP</button></td>
-					</tr>
-				</tr>
-			</table>
+		<header>
+			<img src="img/head.png">
+		</header>
+	
+		<div class="content">
+			<div class="service">
+				<p class="top">Не ждите долго такси! Звоните в "Город такси", наши машины быстро прибудут в любой район и в любую погоду, днем и ночью отвезут вас комфортно и безопасно с приятной музыкой и кондиционером!</p>
+			</div>
+
+			<div class="tariffs">
+				<h4>Цена подачи машины</h4>
+				<div class="colons">
+					<div class="tariff1">
+						<h4>Эконом</h4>
+						<ul>
+							<li><img src="img/car1.png" class="car1"></li>
+							<br>
+							<li><span>от 89&#x584;</span></li>
+						</ul>
+					</div>
+
+					<div class="tariff2">
+						<h4>Комфорт</h4>
+						<ul>
+							<li><img src="img/car2.png" class="car2">
+							<li><span>от 150&#x584;</span></li>
+						</ul>
+					</div>
+					
+					<div class="tariff3">
+						<h4>Бизнес</h4>
+						<ul>
+							<li><img src="img/car3.png" class="car3"></li>
+							<br>
+							<li><span>от 250&#x584;</span></li>
+						</ul>
+					</div>
+
+					<div class="tariff4">
+						<h4>VIP</h4>
+						<ul>
+							<li><img src="img/car4.png" class="car4">
+							<li><span>от 350&#x584;</span></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="cell">
+					<div class="tariff5">
+						<h4>Трезвый водитель</h4>
+						<ul>
+							<li><p>Безопасно и быстро перегоним ваш автомобиль до места назначения</p>
+							<li><span>от 500&#x584;</span></li>
+						</ul>
+					</div>
+					
+					<div class="numbs">
+						<p class="phone1"><img src="img/phone2.png" class="phone"> 410-14-90</p>
+
+						<p class="phone2"><img src="img/phone2.png" class="phone"> 8-950-606-60-14</p>
+					</div>
+				</div>
+
+			<div class="about">  <!--  -->
+				<p>Такси город отвезет в любой город!  В пригород, загород, район, жд вокзал, в любой аэропорт  комфортно и безопасно!  Есть бланки квитанции! 
+					<br>
+				Для наших поссажиров в автомобилях имеются кондиционеры и приятные водители с музыкальным сопровождением по вашему желанию, так же для совсем маленьких поссажиров у нас имеются детские кресла и мультфильмы, чтобы занять их и скрасить поездку. Для вашего удобства у нас есть возможность оплатить услуги картой.</p>
+			</div>
+
+			<footer> </footer>
 		</div>
 	</div>
 </body>
